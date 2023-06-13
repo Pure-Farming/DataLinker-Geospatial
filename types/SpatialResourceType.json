@@ -14,6 +14,10 @@
         "totalLength": {
           "$ref": "../types/LengthMeasureType.json",
           "description": "If the feature is linear, the total length. If a polygon, the perimeter (default is in metres - MTR)"
+        },
+        "geometry": {
+          "$ref": "https://raw.githubusercontent.com/daniel-buchanan/rfc7946-schema/main/schema/geometry.json",
+          "description": "The geometry for the spatial feature"
         }
       }
     }
